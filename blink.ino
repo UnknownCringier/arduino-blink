@@ -1,8 +1,8 @@
 void setup() {
-  pinMode(13, OUTPUT);
+  DDRB = 0B00100000;
 }
 
 void loop() {
-  digitalWrite(13, 1);
-  digitalWrite(13, 0);
+  PORTB = 0B00100000;
+  PORTB = 0B00000000;
 }
