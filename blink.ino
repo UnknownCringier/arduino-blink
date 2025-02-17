@@ -1,8 +1,8 @@
-void setup() {
+int main() {
   DDRB = 0B00100000;
-}
-
-void loop() {
+  while (1)
+  {
   PORTB = 0B00100000;
   PORTB = 0B00000000;
+  }
 }
